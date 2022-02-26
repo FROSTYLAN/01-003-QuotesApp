@@ -43,7 +43,7 @@ code {
 }
 .quoteBox div:nth-child(3){
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .button i{
   margin: 1rem;
