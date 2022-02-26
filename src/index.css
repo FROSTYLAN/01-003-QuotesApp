@@ -24,6 +24,7 @@ code {
   min-height: 200px;
   background-color: #fff;
   box-shadow: 2px 2px 8px #000;
+  
 }
 .quoteBox div:nth-child(1){
   display: inline-flex;

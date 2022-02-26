@@ -3,7 +3,7 @@ import quotes from '../quotes.json';
 import Button from './Button';
 import { useState } from 'react';
 
-const Card = ({color}) => {
+const Card = ({off, color}) => {
     const [alterQuote, setAlterQuote] = useState(getQuote());
     const changeQuote = () => {
         setAlterQuote(getQuote());
@@ -18,7 +18,7 @@ const Card = ({color}) => {
             <div>
                 <p style={{ color: color }}>{alterQuote.author}</p>
             </div>
-            <div><Button onCLick={changeQuote} color={color}/></div>
+            <div><Button off={off} on={changeQuote} color={color}/></div>
         </div>
     );
 };
