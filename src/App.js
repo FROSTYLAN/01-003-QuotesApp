@@ -33,7 +33,6 @@ function App() {
   return (
     <div className='app' style={{background: alterColor}}>
       <QuoteBox color={alterColor}/>
-      <button onClick={changeColor}></button>
     </div>
   );
 }

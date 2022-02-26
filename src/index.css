@@ -21,7 +21,7 @@ code {
 .quoteBox{
   margin: auto;
   width: 600px;
-  height: 200px;
+  min-height: 200px;
   background-color: #fff;
   box-shadow: 2px 2px 8px #000;
 }
@@ -46,8 +46,8 @@ code {
 }
 .button i{
   margin: 1rem;
-  background-color: red;
   font-size: 1rem;
+  color: #fff;
   width: 1rem;
   height: 1rem;
   border-radius: 2rem;
