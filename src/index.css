@@ -13,9 +13,10 @@ code {
 }
 
 .app{
-  width: 100vw;
-  height: 100vh;
   display: flex;
+  padding: 1rem;
+  width: calc(100vw - 2rem);
+  height: calc(100vh - 2rem);
 }
 
 .quoteBox{
