@@ -1,6 +1,5 @@
 import './App.css';
 import { useState } from 'react';
-import quotes from './quotes.json';
 import QuoteBox from './components/QuoteBox.js';
 
 function App() {
