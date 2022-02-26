@@ -1,5 +1,7 @@
 import './App.css';
 import { useState } from 'react';
+import quotes from './quotes.json';
+import Card from './components/Card.js';
 
 function App() {
   
@@ -26,9 +28,11 @@ function App() {
     setAlterColor(getColor());
   }
 
+  console.log(quotes);
+
   return (
     <div className='app' style={{background: alterColor}}>
-      <button onClick={changeColor}></button>
+      <Card/>
     </div>
   );
 }
