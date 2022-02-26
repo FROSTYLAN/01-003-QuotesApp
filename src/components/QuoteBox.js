@@ -1,5 +1,6 @@
 import React from 'react';
 import quotes from '../quotes.json';
+import Button from './Button';
 import { useState } from 'react';
 
 const Card = (color) => {
@@ -18,7 +19,7 @@ const Card = (color) => {
             <div>
                 {alterQuote.author}
             </div>
-            <button onClick={changeQuote}>a</button>
+            <div><Button /></div>
         </div>
     );
 };

@@ -25,10 +25,6 @@ code {
   background-color: #fff;
   box-shadow: 2px 2px 8px #000;
 }
-.app button{
-  padding: 100px;
-  background-color: red;
-}
 .quoteBox div:nth-child(1){
   display: inline-flex;
 }
@@ -43,4 +39,17 @@ code {
 .quoteBox div:nth-child(2){
   text-align: right;
   padding-right: 1rem;
+}
+.quoteBox div:nth-child(3){
+  display: flex;
+  justify-content: end;
+}
+.button i{
+  margin: 1rem;
+  background-color: red;
+  font-size: 1rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 2rem;
+  text-align: center;
 }
