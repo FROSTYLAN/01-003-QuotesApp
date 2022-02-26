@@ -18,10 +18,29 @@ code {
   display: flex;
 }
 
-.card{
+.quoteBox{
   margin: auto;
   width: 600px;
-  height: 300px;
+  height: 200px;
   background-color: #fff;
   box-shadow: 2px 2px 8px #000;
+}
+.app button{
+  padding: 100px;
+  background-color: red;
+}
+.quoteBox div:nth-child(1){
+  display: inline-flex;
+}
+.quoteBox i{
+  padding:1rem;
+  font-size: 5rem;
+}
+.quoteBox p{
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+.quoteBox div:nth-child(2){
+  text-align: right;
+  padding-right: 1rem;
 }

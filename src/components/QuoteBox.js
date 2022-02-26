@@ -2,18 +2,18 @@ import React from 'react';
 import quotes from '../quotes.json';
 import { useState } from 'react';
 
-const Card = () => {
+const Card = (color) => {
 
-    const [alterQuote, setAlterQuote] = useState(quotes[getQuote()]);
+    const [alterQuote, setAlterQuote] = useState(getQuote());
     const changeQuote = () => {
-        setAlterQuote(quotes[getQuote()]);
+        setAlterQuote(getQuote());
     }
 
     return (
-        <div className='card'>
+        <div className='quoteBox'>
             <div>
-                <i class="fa-solid fa-quote-left"></i>
-                {alterQuote.quote}
+                <i className="fa-solid fa-quote-left" style={{ color: color }}></i>
+                <p>{alterQuote.quote}</p>
             </div>
             <div>
                 {alterQuote.author}
@@ -23,6 +23,6 @@ const Card = () => {
     );
 };
 
-const getQuote = () => Math.floor(Math.random() * quotes.length);
+const getQuote = () => quotes[Math.floor(Math.random() * quotes.length)];
 
 export default Card;
