@@ -1,6 +1,8 @@
-# Para ver entra aquí
+# 01-003-QuotesApp
 
-> Página desplegada: https://vigorous-cori-b32810.netlify.app
+Miniapp que muestra una frase aleatoria.
+
+- Live Site URL: https://01-003-quotes-app.netlify.app/
 
 # Getting Started with Create React App
 
